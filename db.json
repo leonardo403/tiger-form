@@ -1,0 +1,11 @@
+{
+  "lead": [
+    {
+      "id": 0,
+      "name": "Front end Ninja",
+      "email": "frontend.ninja@resultadosdigitais.com.br",
+      "estado": "SC",
+      "nivel": "Ninja"
+    }
+  ]
+}

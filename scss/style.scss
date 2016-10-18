@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+// Default medium-gray color
+$medium-gray: #cacaca;
+// Default global padding
+$global-padding: 1rem;
+// Global value used for all elements that have a border radius.
+$global-radius: 3px;
+
+// Setting the form border color
+$form-border-color: $medium-gray;
+// Setting the form padding
+$form-padding: $global-padding;
+// Setting the form border radius
+$form-radius: $global-radius;
+
+.parallax-background {
+  background-color: #0078A0;
+  height: 620px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.log-in-form {
+  border: 1px solid $form-border-color;
+  padding: $form-padding;
+  border-radius: $form-radius;
+}
