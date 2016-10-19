@@ -1,15 +1,42 @@
-# tiger-form
-Plugin Jquery for create form.
+# Tiger-Form
+Plugin for create form.
 
-#Install json-server simulate API Json
- Link for information https://github.com/typicode/json-server 
- npm install -g json-server
+# 1 - Install Gulp
+ 
+```sh
+$ npm install --global gulp-cli
+```
+# 2 - Install json-server simulate API Jsron
+```sh
+  Link for information https://github.com/typicode/json-server 
+  npm install -g json-server
+```
+# 3 - Server in localhost
 
-#Run json-server localhost api json
- json-server db.js
+```sh
+$ gulp watch
+```
+# 4 - API Json in localhost
 
-#Run server localhost
- gulp watch 
+```sh
+$ json-server --watch db.js --port 3002
+```
+## 5 - Usage
 
+1. Include before of </body> jQuery:
 
+	```html
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	```
 
+2. Include before of </body> plugin's code:
+
+	```html
+	<script src="js/main.js"></script>
+	```
+
+3. Call the plugin:
+
+	```javascript
+	$("#element").PluginName();
+	```
