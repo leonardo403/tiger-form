@@ -38,5 +38,7 @@ $ json-server --watch db.js --port 3002
 3. Call the plugin:
 
 	```javascript
-	$("#element").PluginName();
+	$("#element").PluginName({
+		'cor' : 'some color'
+	});
 	```
